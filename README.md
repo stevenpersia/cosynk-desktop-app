@@ -17,7 +17,7 @@ Install packages :
 yarn
 ```
 
-When installation is complete, run with version of your choice :
+When installation is complete, run one of these commands :
 
 ```bash
 yarn dev #development
