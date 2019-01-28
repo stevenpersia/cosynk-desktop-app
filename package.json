@@ -1,0 +1,45 @@
+{
+	"name": "Cosynk",
+	"productName": "Cosynk",
+	"description": "Desktop app for Cosynk community.",
+	"author": "Steven Persia",
+	"version": "1.0.0",
+	"license": "MIT",
+	"scripts": {
+		"dev": "electron-webpack dev",
+		"compile": "electron-webpack",
+		"dist": "yarn compile && electron-builder --publish onTagOrDraft",
+		"dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null",
+		"dist:linux": "yarn compile && electron-builder -l --publish onTagOrDraft",
+		"dist:mac": "yarn compile && electron-builder -m --publish onTagOrDraft",
+		"dist:windows": "yarn compile && electron-builder -w --publish onTagOrDraft"
+	},
+	"dependencies": {
+		"source-map-support": "^0.5.5"
+	},
+	"devDependencies": {
+		"electron": "^2.0.4",
+		"electron-builder": "^20.11.1",
+		"electron-webpack": "^2.0.1",
+		"webpack": "^4.8.1"
+	},
+	"resolutions": {
+		"webpack-sources": "1.0.1"
+	},
+	"build": {
+		"appId": "com.electron.cosynk",
+		"mac": {
+			"category": "public.app-category.social-networking"
+		},
+		"win": {
+			"target": "msi"
+		},
+		"linux": {
+			"category": "Network",
+			"target": [
+				"AppImage",
+				"snap"
+			]
+		}
+	}
+}

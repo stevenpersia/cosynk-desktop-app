@@ -1,0 +1,1 @@
+# Cosynk desktop app
