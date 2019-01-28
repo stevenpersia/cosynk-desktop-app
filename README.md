@@ -20,9 +20,9 @@ yarn
 When installation is complete, run one of these commands :
 
 ```bash
-yarn dev #development
+yarn dev # development
 # or
-yarn dist #create distributions
+yarn dist # create dist
 ```
 
 ## Star, Fork, Clone & Contribute
