@@ -5,7 +5,6 @@ let mainWindow;
 
 function createMainWindow() {
 	const window = new BrowserWindow({
-		title: 'My App',
 		titleBarStyle: 'hidden',
 		width: 1200,
 		height: 800,
