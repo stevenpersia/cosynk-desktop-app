@@ -25,6 +25,12 @@ yarn dev # development
 yarn dist # create dist
 ```
 
+## Roadmap
+
+- App updates
+- Shortcuts (Quit, Fullscreen, ...)
+- Notifications in OS 
+
 ## Star, Fork, Clone & Contribute
 
 Feel free to contribute on this repository. If my work helps you, please give me back with a star. This means a lot to me and keeps me going!
