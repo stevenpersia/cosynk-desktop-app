@@ -19,8 +19,8 @@
 	},
 	"devDependencies": {
 		"electron": "^4.0.2",
-		"electron-builder": "^20.38.5",
-		"electron-webpack": "^2.6.1",
+		"electron-builder": "^20.44.1",
+		"electron-webpack": "^2.6.2",
 		"webpack": "^4.29.0"
 	},
 	"resolutions": {
