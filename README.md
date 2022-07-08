@@ -21,7 +21,7 @@
 </p>
 
 ## Overview
-Cosynk is a place of exchange and sharing for creators, developers, web designers, graphic designers... I've made an app with Electron for this community. Here you can check website : www.cosynk.com.
+Cosynk is a place of exchange and sharing for creators, developers, web designers, graphic designers... I've made an app with Electron for this community.
 
 ## Installation and usage
 ### Running the project
